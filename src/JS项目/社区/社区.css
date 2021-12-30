@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+#quan{
+    background-color: #1b1b1b;
+    height: 1000px;
+    width: 100%;
+}
+#biao{
+    cursor: pointer;
+    width: 1000px;
+    margin: 0 auto;
+}
+#biao p{
+    line-height: 40px;
+}
+#biao .p1{
+    color: white;
+}
+#biao .p2{
+    color: #a7a7a7;
+}
+#biao div{
+    border-bottom: 1px solid #383838;
+}
+/*#biao .p2{
+    height: 50px;
+}*/
+

@@ -1,0 +1,21 @@
+<html>
+<head>
+</head>
+<body>
+<div id="myDiv"><h2>通过 AJAX 改变文本</h2></div>
+<button id="b01" type="button">改变内容</button>
+</body>
+</html>
+<script src="js/jquery-1.12.4.js"></script>
+<script type="text/javascript">
+	$(function () {
+        $("#b01").click(function () {
+            htmlObj = $.ajax({
+                url:"www.baidu.com",//目标网址
+                async:false //ture 开启异步
+            });
+            //responseText 按照文本的格式 接收结果
+            $("#myDiv").html(htmlObj.responseText);
+        })
+    })
+</script>

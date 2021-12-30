@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>本次选择的颜色是：<span id="ccc"></span></p>
+
+<input type="button" value="选择颜色" onclick="a()">
+</body>
+<script type="text/javascript">
+    function a(){
+        var a = parseInt(Math.random()*8);
+        var c = parseInt(a);
+        switch (c){
+            case 1:
+                var b = "红色";
+                document.getElementById("ccc").innerHTML = b;
+                break
+            case 2:
+                var b = "橙色";
+                document.getElementById("ccc").innerHTML = b;
+                break
+            case 3:
+                var b = "黄色";
+                document.getElementById("ccc").innerHTML = b;
+                break
+            case 4:
+                var b = "绿色";
+                document.getElementById("ccc").innerHTML = b;
+                break
+            case 5:
+                var b = "青色";
+                document.getElementById("ccc").innerHTML = b;
+                break
+            case 6:
+                var b = "蓝色";
+                document.getElementById("ccc").innerHTML = b;
+                break
+            case 7:
+                var b = "紫色";
+                document.getElementById("ccc").innerHTML = b;
+                break
+            default:
+                var b = "白色";
+                document.getElementById("ccc").innerHTML = b;
+                break
+
+        }
+    }
+</script>
+</html>

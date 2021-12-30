@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        a{
+            text-decoration: none;
+            display: block;
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+            background: #E8A696;
+        }
+        a:hover{
+            background: #D05667;
+        }
+        div{
+            width: 300px;
+            height: 300px;
+        }
+        div a:nth-of-type(2){
+            position: relative;
+            left: 100px;
+        }
+        div a:nth-of-type(4){
+            position: relative;
+            left: 200px;
+            bottom: 300px;
+        }
+        div a:nth-of-type(5){
+            position: relative;
+            left: 200px;
+            bottom: 200px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a href="#">4</a>
+    <a href="#">5</a>
+</div>
+</body>
+</html>

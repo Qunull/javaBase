@@ -1,0 +1,654 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    overflow-x: hidden;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+body{
+    background: #11192E;
+}
+#社区 {
+    position: relative;
+}
+#社区 img {
+    z-index: -1;
+}
+#社区 div {
+    background: linear-gradient(to bottom, rgba(14, 17, 40, 0), rgba(14, 17, 40, 1));
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1080px;
+    width: 1920px;
+}
+/*#社区 div div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 700px;
+    margin: 0 auto;
+}*/
+#社区 div h1 {
+    -webkit-animation: focus-in-contract-bck 10s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: focus-in-contract-bck 10s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    font-family: Brutal_Light, "Open Sans", arial;
+    font-weight: 300;
+    font-size: 90px;
+    line-height: 58px;
+    letter-spacing: -0.5px;
+    width: 739px;
+    margin: 0 auto;
+    color: white;
+    margin-top: 500px;
+    margin-bottom: 50px;
+
+}
+#社区 div h2{
+    -webkit-animation: focus-in-contract-bck 10s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: focus-in-contract-bck 10s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    position: absolute;
+    top: 333px;
+    left: 847px;
+    color: white;
+    font-family: Brutal_Medium, "Open Sans", arial;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+#社区 div p {
+    -webkit-animation: focus-in-contract-bck 10s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: focus-in-contract-bck 10s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    color: white;
+    font-family: Brutal_Regular, "Open Sans", arial;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-size: 33px;
+    line-height: 165px;
+    height: 98px;
+    width: 844px;
+    margin: 0 auto;
+}
+@-webkit-keyframes focus-in-contract-bck {
+    0% {
+        letter-spacing: 1em;
+        -webkit-transform: translateZ(300px);
+        transform: translateZ(300px);
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateZ(12px);
+        transform: translateZ(12px);
+        -webkit-filter: blur(0);
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+@keyframes focus-in-contract-bck {
+    0% {
+        letter-spacing: 1em;
+        -webkit-transform: translateZ(300px);
+        transform: translateZ(300px);
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateZ(12px);
+        transform: translateZ(12px);
+        -webkit-filter: blur(0);
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+
+#社区 div p:nth-of-type(2) {
+    width: 832px;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+#社区 div p:nth-of-type(3) {
+    margin-top: 50px;
+    border: #00ABF5 solid 2px;
+    width: 150px;
+}
+#社区 div p a {
+    color: white;
+    margin-left: 25px;
+}
+#社区 div p:nth-of-type(3):hover {
+    box-shadow: rgb(0 171 245) 0px 0px 18px;
+}
+/*#社区 div div{
+    width: 2px;
+    height: 40px;
+    position: relative;
+    text-align: center;
+    margin: 0px auto;
+}*/
+#灵感2 span {
+    z-index: 100;
+    margin-top: 356px;
+    content: "";
+    display: block;
+    position: absolute;
+    top: -40px;
+    left: 779px;
+    animation-name: iikemT;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0, 0.42, 0.2, 0.99);
+    animation-play-state: running;
+    width: 2px;
+    height: 0px;
+    background: rgb(255, 255, 255);
+}
+@keyframes iikemT {
+    0% {
+        top: 0px;
+        height: 0px;
+    }
+
+    40% {
+        top: 0px;
+        height: 80px;
+    }
+
+    85% {
+        top: 80px;
+        height: 0px;
+    }
+
+    100% {
+        top: 80px;
+        height: 0px;
+    }
+}
+
+#灵感 {
+    padding-top: -10px;
+    background: #161731;
+    height: 1482px;
+    position: relative;
+}
+#灵感 #灵感1 h2 span{
+    color: white;
+    padding-right: 10px;
+}
+#灵感 #灵感1 h2{
+    color: #0399E7;
+    position: absolute;
+    top: 50px;
+    left: 400px;
+}
+#灵感 #灵感1 h1{
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    color: white;
+    font-family: Brutal_Light, "Open Sans", arial;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 58px;
+    letter-spacing: -0.5px;
+}
+#灵感 #灵感1 p{
+    font-family: Brutal_Regular, "Open Sans", arial;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0px;
+    position: absolute;
+    top: 100px;
+    left: 1000px;
+    color: white;
+}
+#灵感2{
+    position: relative;
+    border: white solid 1px;
+    width: 1500px;
+    height: 400px;
+    top: 300px;
+    left: 200px;
+}
+#灵感2 h6{
+    position: absolute;
+    top: 77px;
+    left: 664px;
+    font-family: Brutal_Medium, "Open Sans", arial;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: white;
+    margin: 0px;
+}
+#灵感2 a{
+    position: absolute;
+    top: 154px;
+    left: 506px;
+    font-family: Brutal_Light, "Open Sans", arial;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 42px;
+    letter-spacing: 0px;
+    color: white;
+}
+#灵感2 a:hover{
+    color: #128DA3;
+}
+#灵感2 p{
+    position: absolute;
+    top: 245px;
+    left: 364px;
+    color: white;
+    font-family: Brutal_Regular, "Open Sans", arial;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-size: 16px;
+    line-height: 30px;
+}
+#灵感2 img{
+    position: absolute;
+    top: 400px;
+    left: -30px;
+}
+
+#交流1{
+    position: relative;
+    width: 1500px;
+    height: 217px;
+    top: 100px;
+    left: 200px;
+    border-bottom: white solid 1px;
+}
+#交流1 h2 span{
+    color: white;
+    padding-right: 10px;
+}
+#交流1 h2{
+    color: #0399E7;
+    position: absolute;
+    top: 50px;
+    left: 400px;
+}
+#交流1 h1{
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    color: white;
+    font-family: Brutal_Light, "Open Sans", arial;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 58px;
+    letter-spacing: -0.5px;
+}
+#交流1 p{
+    font-family: Brutal_Regular, "Open Sans", arial;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0px;
+    position: absolute;
+    top: 100px;
+    left: 1000px;
+    color: white;
+}
+
+#交流2{
+    position: relative;
+    height: 1400px;
+}
+#交流2 .img1{
+    position: absolute;
+    top: 146px;
+    left: 251px;
+}
+#交流2 .img1 .img11{
+    background: linear-gradient(to bottom, rgba(14, 17, 40, 0), rgba(14, 17, 40, 1));
+    position: absolute;
+    width: 700px;
+    height: 354px;
+    top: 0;
+    left: 0;
+}
+#交流2 .img1 .img11 h1{
+    position: absolute;
+    top: 135px;
+    left: 295px;
+    font-family: Brutal_Light, "Open Sans", arial;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 42px;
+    letter-spacing: 0px;
+    margin: 0px;
+}
+#交流2 .img1 .img11 h1 a{
+    color: white;
+}
+#交流2 .img1 .img11 h1 a:hover{
+    color: #128DA3;
+}
+#交流2 .img1 .img11 p:nth-of-type(1){
+    position: absolute;
+    top: 201px;
+    left: 71px;
+    color: white;
+    font-family: Brutal_Regular, "Open Sans", arial;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0px;
+}
+#交流2 .img1 .img11 p:nth-of-type(2){
+    position: absolute;
+    top: 244px;
+    left: 223px;
+    color: white;
+    font-family: Brutal_Regular, "Open Sans", arial;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0px;
+}
+#交流2 .img1 .img11 p a{
+    color: white;
+    position: absolute;
+    top: 299px;
+    left: 293px;
+    border: #34B2FA solid 2px;
+    padding: 10px 33px;
+}
+#交流2 .img1 .img11 p a:hover{
+    box-shadow: rgb(0 171 245) 0px 0px 18px;
+}
+
+#交流2 .img2{
+    position: absolute;
+    top: 146px;
+    left: 1002px;
+}
+#交流2 .img2 .img22{
+    background: linear-gradient(to bottom, rgba(14, 17, 40, 0), rgba(14, 17, 40, 1));
+    position: absolute;
+    width: 629px;
+    height: 354px;
+    top: 0;
+    left: 0;
+}
+#交流2 .img2 .img22 h1{
+    position: absolute;
+    top: 135px;
+    left: 235px;
+    font-family: Brutal_Light, "Open Sans", arial;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 42px;
+    letter-spacing: 0px;
+    margin: 0px;
+}
+#交流2 .img2 .img22 h1 a{
+    color: white;
+}
+#交流2 .img2 .img22 h1 a:hover{
+    color: #128DA3;
+}
+#交流2 .img2 .img22 p:nth-of-type(1){
+    position: absolute;
+    top: 201px;
+    left: 57px;
+    color: white;
+    font-family: Brutal_Regular, "Open Sans", arial;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0px;
+}
+#交流2 .img2 .img22 p:nth-of-type(2){
+    position: absolute;
+    top: 244px;
+    left: 143px;
+    color: white;
+    font-family: Brutal_Regular, "Open Sans", arial;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0px;
+}
+#交流2 .img2 .img22 p a{
+    color: white;
+    position: absolute;
+    top: 299px;
+    left: 246px;
+    border: #34B2FA solid 2px;
+    padding: 10px 33px;
+}
+#交流2 .img2 .img22 p a:hover{
+    box-shadow: rgb(0 171 245) 0px 0px 18px;
+}
+
+#交流2 .img3{
+    position: absolute;
+    top: 556px;
+    left: 241px;
+}
+#交流2 .img3 .img33{
+    background: linear-gradient(to bottom, rgba(14, 17, 40, 0), rgba(14, 17, 40, 1));
+    position: absolute;
+    width: 1424px;
+    height: 801px;
+    top: 0;
+    left: 0;
+}
+#交流2 .img3 .img33 h3{
+    position: absolute;
+    top: 200px;
+    left: 657px;
+    font-family: Brutal_Medium, "Open Sans", arial;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: white;
+}
+#交流2 .img3 .img33 h1{
+    position: absolute;
+    top: 300px;
+    left: 505px;
+    font-family: Brutal_Light, "Open Sans", arial;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 42px;
+    letter-spacing: 0px;
+    margin: 0px;
+}
+#交流2 .img3 .img33 h1 a{
+    color: white;
+}
+#交流2 .img3 .img33 h1 a:hover{
+    color: #128DA3;
+}
+#交流2 .img3 .img33 p:nth-of-type(1){
+    position: absolute;
+    top: 400px;
+    left: 417px;
+    color: white;
+    font-family: Brutal_Regular, "Open Sans", arial;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0px;
+}
+#交流2 .img3 .img33 p:nth-of-type(2){
+    position: absolute;
+    top: 460px;
+    left: 670px;
+    color: white;
+    font-family: Brutal_Regular, "Open Sans", arial;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0px;
+}
+#交流2 .img3 .img33 p a{
+    color: white;
+    position: absolute;
+    top: 580px;
+    left: 644px;
+    border: #34B2FA solid 2px;
+    padding: 10px 33px;
+}
+#交流2 .img3 .img33 p a:hover{
+    box-shadow: rgb(0 171 245) 0px 0px 18px;
+}
+
+#支持{
+    width: 1920px;
+    height: 1102px;
+    background: #DBDEE3;
+    position: relative;
+}
+#支持 #支持1 h2 span{
+    color: black;
+    padding-right: 10px;
+}
+#支持 #支持1 h2{
+    color: #0399E7;
+    position: absolute;
+    top: 50px;
+    left: 400px;
+}
+#支持 #支持1 h1{
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    color: black;
+    font-family: Brutal_Light, "Open Sans", arial;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 58px;
+    letter-spacing: -0.5px;
+}
+#支持 #支持1 p{
+    font-family: Brutal_Regular, "Open Sans", arial;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0px;
+    position: absolute;
+    top: 100px;
+    left: 1000px;
+    color: black;
+}
+
+#支持2 .img4{
+    position: absolute;
+    top: 290px;
+    left: 241px;
+}
+#支持2 .img4 .img44{
+    background: linear-gradient(to bottom, rgba(14, 17, 40, 0), rgba(14, 17, 40, 1));
+    position: absolute;
+    width: 1424px;
+    height: 801px;
+    top: 0;
+    left: 0;
+}
+#支持2 .img4 .img44 h3{
+    position: absolute;
+    top: 200px;
+    left: 578px;
+    font-family: Brutal_Medium, "Open Sans", arial;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: white;
+}
+#支持2 .img4 .img44 h1{
+    position: absolute;
+    top: 300px;
+    left: 646px;
+    font-family: Brutal_Light, "Open Sans", arial;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 42px;
+    letter-spacing: 0px;
+    margin: 0px;
+}
+#支持2 .img4 .img44 h1 a{
+    color: white;
+}
+#支持2 .img4 .img44 h1 a:hover{
+    color: #128DA3;
+}
+#支持2 .img4 .img44 p:nth-of-type(1){
+    position: absolute;
+    top: 400px;
+    left: 417px;
+    color: white;
+    font-family: Brutal_Regular, "Open Sans", arial;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0px;
+}
+#支持2 .img4 .img44 p:nth-of-type(2){
+    position: absolute;
+    top: 460px;
+    left: 435px;
+    color: white;
+    font-family: Brutal_Regular, "Open Sans", arial;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0px;
+}
+#支持2 .img4 .img44 p:nth-of-type(3){
+    position: absolute;
+    top: 522px;
+    left: 429px;
+    color: white;
+    font-family: Brutal_Regular, "Open Sans", arial;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0px;
+}
+#支持2 .img4 .img44 p a{
+    color: white;
+    position: absolute;
+    top: 622px;
+    left: 644px;
+    border: #34B2FA solid 2px;
+    padding: 10px 33px;
+}
+#支持2 .img4 .img44 p a:hover{
+    box-shadow: rgb(0 171 245) 0px 0px 18px;
+}

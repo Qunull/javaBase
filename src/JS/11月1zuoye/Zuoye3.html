@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        var a = prompt("请输入考试科目的数量","");
+        var b = parseInt(a)
+        var count = 0;
+        parseInt(count);
+        if (b >= 0 ){
+            var c = new Array(b);
+            for (var i = 0;i<c.length;i++){
+                c[i] = prompt("输入考试成绩","");
+                var g = parseInt(c[i]);
+                if (g >= 0){
+                    count += g;
+                }else {
+                    alert("输入错误！");
+                }
+            }
+        alert("总分为："+count);
+        }else {
+            alert("输入错误！");
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

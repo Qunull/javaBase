@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload="a()">
+<h1>你好，欢迎访问！</h1>
+<h1 id="a" ></h1>
+</body>
+<script type="text/javascript">
+    function a() {
+        var day = new Date();
+        var year = day.getFullYear();
+        var month = day.getMonth() + 1;
+        var da = day.getDate();
+        var hour = day.getHours();
+        var min = day.getMinutes();
+        var sec = day.getSeconds();
+        var str = "";
+        var week = day.getDay();
+        if (week === 0) {
+            str = "星期日";
+        } else if (week === 1) {
+            str = "星期一";
+        } else if (week === 2) {
+            str = "星期二";
+        } else if (week === 3) {
+            str = "星期三";
+        } else if (week === 4) {
+            str = "星期四";
+        } else if (week === 5) {
+            str = "星期五";
+        } else if (week === 6) {
+            str = "星期六";
+        }
+        var m = "";
+        if (hour > 12) {
+            m = "PM";
+        } else if (hour <= 12) {
+            m = "AM";
+        }
+        document.getElementById("a").innerHTML=(year+"年"+month+"月"+da+"日&nbsp;&nbsp;"+hour+":"+min+":"+sec+"&nbsp;&nbsp;"+m+"&nbsp;&nbsp;"+str);
+        setInterval("a()",1000)
+    }
+</script>
+</html>

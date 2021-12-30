@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .clear:after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        #a{
+            width: 336px;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+        #a .a{
+            font-size: 12px;
+            padding-left: 38px;
+            height: 27px;
+            line-height: 27px;
+            border: 1px solid #999999;
+            background: url("1.gif") no-repeat 5px center;
+            margin-bottom: 10px;
+        }
+        #a #b img{
+            border: 1px solid #999999;
+            padding: 5px;
+        }
+        ul{
+            list-style: none;
+        }
+        #a #b{
+            margin-bottom: 10px;
+        }
+        #a #b .one{
+            width: 200px;
+            float: right;
+        }
+        #a #b .one ul li{
+            height: 25px;
+            line-height: 25px;
+            color: #999;
+            font-size: 12px;
+        }
+        #a #b .one ul li:nth-of-type(1){
+            color: black;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        #a #c ul li a{
+            text-decoration: none;
+            height: 25px;
+            line-height: 25px;
+            color: #333;
+            font-size: 12px;
+        }
+        #a #c ul li span{
+            float: right;
+        }
+    </style>
+</head>
+<body>
+<div>
+<div id="a">
+    <h3 class="a">明星荐片</h3>
+    <div id="b">
+        <img src="3.gif" alt="">
+        <div class="one">
+            <ul>
+                <li>周秀娜荐片:让子弹飞</li>
+                <li>导演：姜文</li>
+                <li>主演：姜文 周润发 葛优</li>
+                <li>点评：我最喜欢的要算《让子弹飞》了,超喜欢...[详情]</li>
+            </ul>
+       </div>
+    </div>
+    <div id="c">
+        <ul>
+            <li><a href="#">《巴别塔》：好的故事引人深思</a><span><a href="#">阿朵</a></span></li>
+            <li><a href="#">《洛杉矶之战》：外星人那么弱智？</a><span><a href="#">丁子俊</a></span></li>
+            <li><a href="#">《让子弹飞》：武侠里也可以有爱情</a><span><a href="#">周秀娜</a></span></li>
+            <li><a href="#">《剑雨》：好的故事引人深思</a><span><a href="#">叶年生</a></span></li>
+            <li><a href="#">《春风沉醉的夜晚》：非常真实</a><span><a href="#">如小果</a></span></li>
+            <li><a href="#">《克洛伊》：故事简单却细致</a><span><a href="#">刘若英</a></span></li>
+        </ul>
+    </div>
+</div>
+</div>
+</body>
+</html>

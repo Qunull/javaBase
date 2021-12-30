@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .clear:after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        ul{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        #head div{
+            width: 990px;
+            margin: 0 auto;
+            height: 80px;
+            line-height: 80px;
+        }
+        #head div img{
+            float: left;
+            margin-top: 10px;
+        }
+        #head div p{
+            float: left;
+            font-size: 30px;
+            font-weight: bold;
+            margin-left: 20px;
+            color: #999;
+        }
+        #box{
+            background-color: #E93854;
+        }
+        #box div{
+            background: url("banner.png") no-repeat center center;
+            width: 990px;
+            margin: 0 auto;
+            height: 700px;
+        }
+        #wei div{
+            width: 990px;
+            margin: 0 auto;
+        }
+        #wei div p{
+            color: #999;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+        }
+        #box .zh .zhh{
+            height: 274px;
+            width: 400px;
+            float: right;
+            margin-top: 129px;
+            background: white;
+            padding-right: 10px;
+        }
+        #box .zh .zhh .one{
+            height: 50px;
+            line-height: 50px;
+            color: #666;
+            padding-left: 20px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        #box .zh .zhh p:nth-of-type(1) a{
+            float: right;
+            color: red;
+            background: url("icon5.jpg") no-repeat 0% center;
+            padding-left: 20px;
+            font-size: 10px;
+        }
+        #box .zh .zhh form p{
+            margin-left: 20px;
+            width: 367px;
+            height: 38px;
+            line-height: 45px;
+            margin-bottom: 10px;
+        }
+        #box .zh .zhh form p:nth-of-type(1){
+            border: 1px solid #999;
+        }
+        #box .zh .zhh form p:nth-of-type(2){
+            border: 1px solid #999;
+        }
+        #box .zh .zhh form p:nth-of-type(1) input{
+            border: none;
+            height: 38px;
+            float: left;
+            width: 328px;
+            outline: none;
+        }
+        #box .zh .zhh form p img{
+            float: left;
+            border-right: 1px solid #999;
+        }
+        #box .zh .zhh form p:nth-of-type(2) input{
+            border: none;
+            height: 38px;
+            float: left;
+            width: 328px;
+            outline: none;
+        }
+        #box .zh .zhh form .two{
+            margin-top: 20px;
+            height: 30px;
+            line-height: 10px;
+            font-size: 10px;
+            color: #999;
+        }
+        #box .zh .zhh form .two input{
+            float: left;
+        }
+        #box .zh .zhh form .two a{
+            color: #999;
+            float: right;
+        }
+        #box .zh .zhh form .three{
+            height: 50px;
+            background: #E4393C;
+            margin: 0 auto;
+        }
+        #box .zh .zhh form .three a{
+            color: white;
+            text-align: center;
+            height: 50px;
+            line-height: 50px;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="head">
+        <div>
+        <img src="logo.png" alt="">
+        <p>欢迎登录</p>
+        </div>
+    </div>
+    <div id="box">
+        <div class="zh">
+            <div class="zhh">
+               <p class="one">
+                京东会员
+                   <a href="#">立即注册</a>
+               </p>
+            <form action="" method="post">
+                <p >
+                   <img src="icon1.jpg" alt="">
+                    <input type="text" id="a" placeholder="邮箱/用户名/已验证手机" >
+                </p>
+                <p>
+                    <img src="icon2.jpg" alt="">
+                    <input type="password" id="b">
+                </p>
+                <p class="two">
+                    <input type="checkbox" >自动登录
+                    <a href="#">忘记密码？</a>
+                </p>
+                <p class="three">
+                    <a href="#">登录</a>
+                </p>
+            </form>
+        </div>
+        </div>
+    </div>
+    <div id="wei">
+        <div>
+            <p>关于我们| 联系我们| 人才
+                招聘| 商家入驻| 广告服务|
+                手机京东| 友情链接| 销售联盟
+                | 京东社区| 京东公益| Engl
+                ish Site</p>
+            <p>Copyright?2004-2017 京东JD.com 版权所有</p>
+        </div>
+    </div>
+</body>
+</html>

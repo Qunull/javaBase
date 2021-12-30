@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        function a(){
+            var b = new Array(6);
+            b[0] = "America";
+            b[1] = "Greece";
+            b[2] = "Britain";
+            b[3] = "Canada";
+            b[4] = "China";
+            b[5] = "Egypt";
+            var count = 0;
+            for (var c in b){
+               if ((b[c].indexOf("a")!==-1)||(b[c].indexOf("A")!==-1)){
+                   count++;
+                }
+            }
+            document.write("共有"+count+"个字符串中包含a或A.");
+        }
+    </script>
+</head>
+<body>
+<p>在以下字符中：</p>
+<p>America</p>
+<p>Greece</p>
+<p>Britain</p>
+<p>Canada</p>
+<p>China</p>
+<p>Egypt</p>
+<p onclick="a()">共有？个字符串中包含a或A.</p>
+</body>
+</html>

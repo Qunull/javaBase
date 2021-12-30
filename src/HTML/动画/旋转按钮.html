@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0;
+        }
+        div img{
+            margin-top: 50px;
+            margin-left: 50px;
+            transition: all 1s;
+        }
+        div img:hover{
+
+        }
+        /*@keyframes rotate {*/
+        /*    100%{*/
+        /*        transform: rotate(-360deg) scale(50);*/
+        /*    }*/
+        /*}*/
+        html:hover{
+            animation: rotate 10s infinite linear;
+        }
+        html:hover img{
+            animation: rotate 1ms infinite linear;
+        }
+        @keyframes rotate {
+             100%{
+                 transform: rotate(-360deg) scale(3);
+             }
+         }
+    </style>
+</head>
+<body>
+<div>
+    <img src="delicious.png" alt="">
+    <img src="facebook.png" alt="">
+    <img src="rss.png" alt="">
+    <img src="twitter.png" alt="">
+    <img src="yahoo.png" alt="">
+</div>
+</body>
+</html>
